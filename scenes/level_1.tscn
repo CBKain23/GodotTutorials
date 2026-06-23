@@ -249,3 +249,4 @@ tile_set = SubResource("TileSet_rus8k")
 
 [node name="Player" parent="." unique_id=445707596 instance=ExtResource("3_rus8k")]
 position = Vector2(352, 280)
+jump_force = 300.0

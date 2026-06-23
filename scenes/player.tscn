@@ -10,7 +10,6 @@
 [ext_resource type="Texture2D" uid="uid://cxx8cqd71d84q" path="res://assets/player/p1_walk/p1_walk05.png" id="7_f1ej7"]
 [ext_resource type="Texture2D" uid="uid://vd2umxftt8j3" path="res://assets/player/p1_walk/p1_walk06.png" id="8_oprun"]
 [ext_resource type="Texture2D" uid="uid://de0mb615kjy4j" path="res://assets/player/p1_walk/p1_walk07.png" id="9_a8ls1"]
-[ext_resource type="Texture2D" uid="uid://d04a3fvs8qw0b" path="res://assets/player/p1_walk/p1_walk10.png" id="10_qfm1y"]
 [ext_resource type="PackedScene" uid="uid://boseui3s5edmn" path="res://scenes/gravity.tscn" id="12_3v2ag"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nfnr1"]
@@ -52,13 +51,10 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("9_a8ls1")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_qfm1y")
 }],
 "loop": 1,
 "name": &"walk",
-"speed": 7.5
+"speed": 7.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_nfnr1"]
@@ -69,11 +65,12 @@ height = 96.0
 collision_layer = 2
 collision_mask = 20
 script = ExtResource("1_d2wvv")
+jump_force = 400.0
 
 [node name="PlayerSprite" type="AnimatedSprite2D" parent="." unique_id=1978816482]
+unique_name_in_owner = true
 sprite_frames = SubResource("SpriteFrames_nfnr1")
 animation = &"idle"
-frame_progress = 0.7191044
 offset = Vector2(0, -46.245)
 
 [node name="PlayerCollision" type="CollisionShape2D" parent="." unique_id=2007085443]
