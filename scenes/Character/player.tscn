@@ -87,4 +87,5 @@ zoom = Vector2(1.2, 1.2)
 body = NodePath("..")
 
 [node name="PlayerController" parent="." unique_id=1826170070 node_paths=PackedStringArray("body") instance=ExtResource("12_hdh7n")]
+unique_name_in_owner = true
 body = NodePath("..")

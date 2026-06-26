@@ -13,6 +13,7 @@ var current_double_jump : int = 0
 var double_jump : float = -jump_force * double_jump_per
 
 @onready var sprite : AnimatedSprite2D = %PlayerSprite
+@onready var controller := %PlayerController
 
 var move_input : float
 
@@ -52,7 +53,7 @@ func player_animation():
 	
 	if not is_on_floor():
 		sprite.play("jump")
-	elif move_input != 0:
+	elif controller.move_input != 0:
 		sprite.play("walk")
 	else:
 		sprite.play("idle")
