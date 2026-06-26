@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://vd2umxftt8j3" path="res://assets/player/p1_walk/p1_walk06.png" id="8_oprun"]
 [ext_resource type="Texture2D" uid="uid://de0mb615kjy4j" path="res://assets/player/p1_walk/p1_walk07.png" id="9_a8ls1"]
 [ext_resource type="PackedScene" uid="uid://boseui3s5edmn" path="res://scenes/Component/gravity.tscn" id="12_3v2ag"]
+[ext_resource type="PackedScene" uid="uid://bcslqjxudraiu" path="res://scenes/Component/player_controller.tscn" id="12_hdh7n"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nfnr1"]
 animations = [{
@@ -83,4 +84,7 @@ zoom = Vector2(1.2, 1.2)
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=511253889]
 
 [node name="Gravity" parent="." unique_id=659583282 node_paths=PackedStringArray("body") instance=ExtResource("12_3v2ag")]
+body = NodePath("..")
+
+[node name="PlayerController" parent="." unique_id=1826170070 node_paths=PackedStringArray("body") instance=ExtResource("12_hdh7n")]
 body = NodePath("..")

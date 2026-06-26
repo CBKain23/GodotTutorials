@@ -21,7 +21,7 @@ func _physics_process(delta: float) -> void:
 	if is_on_floor():
 		current_double_jump = 0
 	
-	player_movement(delta)
+	#player_movement(delta)
 	
 	move_and_slide()
 
