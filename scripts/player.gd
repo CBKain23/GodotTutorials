@@ -1,10 +1,10 @@
 extends CharacterBody2D
 
 ##Character's max movement speed
-@export var move_speed : float = 200
+@export var move_speed : float = 300
 
 ##How fast the character gets to max speed
-@export var acceleration : float = 50
+@export var acceleration : float = 20
 @export var braking : float = 20
 @export var jump_force : float = 400
 @export var double_jump_count : int = 1
