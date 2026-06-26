@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://2w4lkisinl67"]
 
 [ext_resource type="Texture2D" uid="uid://bhmmb4hd6tkyk" path="res://assets/player/p1_stand.png" id="1_3vyb7"]
-[ext_resource type="Script" uid="uid://bv32sjp3wkncs" path="res://scripts/player.gd" id="1_d2wvv"]
+[ext_resource type="Script" uid="uid://bv32sjp3wkncs" path="res://scripts/Character/player.gd" id="1_d2wvv"]
 [ext_resource type="Texture2D" uid="uid://dtdh2k05dyd1v" path="res://assets/player/p1_jump.png" id="2_g2els"]
 [ext_resource type="Texture2D" uid="uid://jjtclf8llyr3" path="res://assets/player/p1_walk/p1_walk01.png" id="3_y4r1p"]
 [ext_resource type="Texture2D" uid="uid://cum4ayagpgb1t" path="res://assets/player/p1_walk/p1_walk02.png" id="4_d2wvv"]
@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://cxx8cqd71d84q" path="res://assets/player/p1_walk/p1_walk05.png" id="7_f1ej7"]
 [ext_resource type="Texture2D" uid="uid://vd2umxftt8j3" path="res://assets/player/p1_walk/p1_walk06.png" id="8_oprun"]
 [ext_resource type="Texture2D" uid="uid://de0mb615kjy4j" path="res://assets/player/p1_walk/p1_walk07.png" id="9_a8ls1"]
-[ext_resource type="PackedScene" uid="uid://boseui3s5edmn" path="res://scenes/gravity.tscn" id="12_3v2ag"]
+[ext_resource type="PackedScene" uid="uid://boseui3s5edmn" path="res://scenes/Component/gravity.tscn" id="12_3v2ag"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nfnr1"]
 animations = [{
