@@ -32,3 +32,4 @@ func player_movement(delta: float):
 		
 	if Input.is_action_pressed("jump") and body.is_on_floor():
 		body.velocity.y = jump_force
+	

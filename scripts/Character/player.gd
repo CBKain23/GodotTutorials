@@ -1,10 +1,7 @@
 extends CharacterBody2D
 
-
 @onready var sprite : AnimatedSprite2D = %PlayerSprite
 @onready var controller := %PlayerController
-
-
 
 func _physics_process(delta: float) -> void:
 	pass

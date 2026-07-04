@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://1am4nnn75ck7"]
 
-[ext_resource type="Script" uid="uid://cn4xlem7khhyp" path="res://scripts/enemy.gd" id="1_5uy6h"]
+[ext_resource type="Script" uid="uid://cn4xlem7khhyp" path="res://scripts/Character/enemy.gd" id="1_5uy6h"]
 [ext_resource type="Texture2D" uid="uid://duek6blj5tkqr" path="res://assets/enemy/fly/flyDead.png" id="2_c4w8v"]
 [ext_resource type="Texture2D" uid="uid://dbwnnvt541qme" path="res://assets/enemy/fly/flyFly1.png" id="3_xwavj"]
 [ext_resource type="Texture2D" uid="uid://ct1q4jcq24sxw" path="res://assets/enemy/fly/flyFly2.png" id="4_nenq2"]
