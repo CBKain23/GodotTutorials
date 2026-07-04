@@ -12,6 +12,10 @@ var move_input : float
 var current_multi_jump_count : int = 0
 var multi_jump : float = jump_force * multi_jump_per
 
+func set_body(newBody: CharacterBody2D):
+	body = newBody
+
+
 func _physics_process(delta: float) -> void:
 	
 	player_movement(delta)
