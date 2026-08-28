@@ -6,6 +6,9 @@ extends Node
 func set_Body(newBody: CharacterBody2D):
 	body = newBody
 
+func get_body():
+	return body
+
 func _physics_process(delta: float) -> void:
 	
 	if not body.is_on_floor():
